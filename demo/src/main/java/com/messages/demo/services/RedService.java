@@ -5,6 +5,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import org.springframework.stereotype.Service;
 
+import com.messages.demo.entity.Enlace;
+
 @Service
 public class RedService {
 
@@ -14,4 +16,5 @@ public class RedService {
         double probabilidadCaida = anchoBanda * 0.1 + Math.pow(numConexiones, 2);
         return probabilidadCaida;
     }
+
 }

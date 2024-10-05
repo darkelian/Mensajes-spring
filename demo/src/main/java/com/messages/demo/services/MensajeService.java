@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MensajeServices {
+public class MensajeService {
 
     public List<String> dividirMensaje(String mensaje) {
         String[] palabras = mensaje.split(" ");
